@@ -1,0 +1,9 @@
+{
+    "minecraft": {
+        "host": "server.chrischromeyt.com",
+        "username": "",
+        "port": 2007,
+        "version": false,
+        "auth": "offline"
+    }
+}
