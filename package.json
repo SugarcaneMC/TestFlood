@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SugarcaneMC/ItemTest-Bot#readme",
   "dependencies": {
-    "mineflayer": "^3.7.0"
+    "mineflayer": "github:Archengius/mineflayer#update-1.17",
+    "prismarine-chunk": "github:Archengius/prismarine-chunk#chunk-1.17"
   }
 }

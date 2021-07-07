@@ -1,11 +1,13 @@
 const config = require("./config.json");
-const mineflayer = require('./mineflayer/index.js');
+const mineflayer = require('mineflayer');
 
 const mcbot = mineflayer.createBot(config.minecraft);
 
+counter = 0;
+
 mcbot.on('playerCollect', (collector, collected) => {
-    console.log(collector.username);
+    if(collector.username !== mcbot.username) return;
 })
 
-bot.on('kicked', console.log)
-bot.on('error', console.log)
+mcbot.on('kicked', console.log)
+mcbot.on('error', console.log)
