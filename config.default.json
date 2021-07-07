@@ -4,6 +4,8 @@
         "username": "",
         "port": 2007,
         "version": false,
-        "auth": "offline"
+        "auth": "offline",
+        "viewDistance": "tiny",
+        "chat": "disabled"
     }
 }
