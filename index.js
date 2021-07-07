@@ -1,7 +1,7 @@
 const config = require("./config.json");
 const stuff = require("./stuff.js");
 const mineflayer = require('mineflayer');
-config.minecraft.username = `CHRIS${stuff.randomString(10)}`
+config.minecraft.username = `${stuff.randomString(10)}`
 console.log(`Attempting to join as ${config.minecraft.username}`)
 const mcbot = mineflayer.createBot(config.minecraft);
 
