@@ -5,6 +5,8 @@ config.minecraft.username = `CHRIS${stuff.randomString(10)}`
 console.log(`Attempting to join as ${config.minecraft.username}`)
 const mcbot = mineflayer.createBot(config.minecraft);
 
+var actions = [ 'forward', 'back', 'left', 'right']
+
 mcbot.on('spawn', function () {
     var yaw = Math.random() * Math.PI - (0.5 * Math.PI);
     var pitch = Math.random() * Math.PI - (0.5 * Math.PI);

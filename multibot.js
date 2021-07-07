@@ -15,5 +15,5 @@ for (var i = 0; i < count; i++) {
     console.log(`Launching bot #${i}`)
     setTimeout(() => {
         fork("index.js");
-    }, i*1)
+    }, i * 1)
 }
